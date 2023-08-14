@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+}
+.header {
+    background-color: #1f2937;
+}
+
+.topheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+    margin: 16px;
+}
+.vd {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 1000;
+    flex-grow: 1;
+}
+
+.underheader {
+    display: flex;
+    justify-content: space-around;
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 16px;
+    color: #F9FAF8;
+}
+
+.address {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: none;
+    flex-grow: 1;
+}
+
+#nego {
+    max-height: 250px;
+    max-width: 500px;
+    margin: 16px;
+    box-shadow: 20% #07090c;
+    border-radius: 10%;
+}
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.button1 {
+    border: none;
+    background-color: #3882F6;
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 100px;
+    padding: 15px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.testimony {
+    background-color: #E5E7EB;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+a:hover {
+    background-color: #498192;
+    border-radius: 10px;
+}
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
